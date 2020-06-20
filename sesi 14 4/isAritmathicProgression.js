@@ -5,8 +5,8 @@ function isAritmathicProgrression(arrNumb){
     for (let i = 1; i < arrNumb.length; i++){
         if (arrNumb[i]-arrNumb[i-1] != bBase){
             val = false
+            break
         }
-        break
     }
     return val
 }
