@@ -1,8 +1,5 @@
 function sortByCharacter(text){
-    var splitString = text.split("");
-    var newText = splitString.sort();
-    var joinArr = newText.join("");
-    return joinArr;
+    return text.split("").sort().join("");
 }
 
 export {
