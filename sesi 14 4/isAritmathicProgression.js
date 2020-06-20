@@ -6,6 +6,7 @@ function isAritmathicProgrression(arrNumb){
         if (arrNumb[i]-arrNumb[i-1] != bBase){
             val = false
         }
+        break
     }
     return val
 }
